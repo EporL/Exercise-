@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+ul,ol,a{
+    text-decoration: none;
+}
+/*图片导航*/
+.banner
+{
+    width:100%;
+    height: 120px;
+}
+
+.banner a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*
+水平导航菜单
+ */
+.h-nav
+{
+    background: #333;
+    color: #b0b0b0;
+    height: 40px;
+    width: 100%;
+    font-size: 12px;
+    position: relative;
+    line-height: 40px;
+}
+.h-nav a {
+    color: #b0b0b0;
+}
+.h-nav a:hover
+{
+    color: red;
+}
+.container
+{
+    width: 1226px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.h-nav span{
+    color:#424242;
+    margin: 0.25em;
+    font-family: sans-serif;
+}
+.h-map
+{
+   float: left;
+    left: 40px;
+}
+.log-menu
+{
+    float: right;
+}
+
+
+
+
