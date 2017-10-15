@@ -337,6 +337,79 @@ img
 }
 /*二级导航菜单结束*/
 /*轮播图开始*/
+.slide-content
+{
+    position: relative;
+    height: 460px;
+}
+.slide-box img
+{
+    height: 460px;
+    width: 1226px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.prev-bnts
+{
+    height: 70px;
+    width: 30px;
+    background:rgba(255,255,255,0);
+    position: absolute;
+    left: 235px;
+    top:195px;
+    line-height: 70px;
+    color: #b0b0b0;
+}
+.next-btns
+{
+    height: 70px;
+    width: 30px;
+    background:rgba(255,255,255,0);
+    position: absolute;
+    right: 0px;
+    top:195px;
+    line-height: 70px;
+    color: #b0b0b0;
+}
+.slide-box i
+{
+    font-size: 30px;
+}
+.prev-bnts:hover
+{
+    background: rgba(0,0,0,0.5);
+    color: #ffffff;
+}
+.next-btns:hover
+{
+    background: rgba(0,0,0,0.5);
+    color: #ffffff;
+}
+.btns
+{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    height: 30px;
+    width: 120px;
+}
+.btns li
+{
+    height: 6px;
+    width: 6px;
+    border: 2px solid;
+    border-color: rgb(165,158,150);
+    background: rgb(126,117,106);
+    float: left;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+.btns li:hover
+{
+    border-color: rgb(137,132,125);
+    background: rgb(228,219,208);
+}
 /*轮播图结束*/
 
 
