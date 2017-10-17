@@ -385,7 +385,7 @@ img
 .slide-content
 {
     position: relative;
-    height: 460px;
+    height: 1108px;
 }
 .slide-box img
 {
@@ -565,6 +565,98 @@ img
 }
 /*弹出导航结束*/
 /*侧边栏结束*/
+/*内容框列表开始*/
+.sub-list
+{
+    height: 170px;
+    width: 100%;
+    position: absolute;
+    top: 460px;
+    left: 0px;
+    margin-top: 15px;
+}
+.logo-sub-list
+{
+    height: 163px;
+    width: 224px;
+    background: rgb(97,87,80);
+    padding: 3px 3px 4px 3px;
+}
+.ul-logo-sub-list li
+{
+    height: 81px;
+    width: 68px;
+    float: left;
+    padding: 0px 3px;
+}
+.ul-logo-sub-list a
+{
+    display: block;
+    width: 68px;
+    height: 46px;
+    padding-top: 18px;
+    color: rgb(207,205,203);
+    font-size: 12px;
+    text-align: center;
+}
+.ul-logo-sub-list i
+{
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.ul-logo-sub-list span
+{
+    position: relative;
+    top:5px;
+    float: left;
+    height: 70px;
+    border-left: 1px solid #665e57;
+}
+ .ul-logo-sub-list .long-line-1
+{
+     position: relative;
+     top:-1px;
+     display: block;
+     width: 62px;
+     height: 1px;
+     float: left;
+     background: #665e57;
+     margin-left: 5px;
+     margin-left: 9px;
+}
+ .ul-logo-sub-list li:hover a
+ {
+     color: #ffffff;
+ }
+ .img-sub-list
+ {
+     position: absolute;
+     top: 0px;
+     left:230px;
+     height: 170px;
+     width: 996px;
+ }
+ .ul-img-sub-list li
+ {
+     height: 170px;
+     width: 316px;
+     margin-left: 16px;
+     float: left;
+ }
+ .ul-img-sub-list a
+ {
+     display: block;
+     height: 170px;
+     width: 316px;
+ }
+ .ul-img-sub-list img
+ {
+     height: 170px;
+     width: 316px;
+ }
+/*内容框列表结束*/
 
 
 
