@@ -1396,11 +1396,6 @@ img
     right: 0px;
     text-align: center;
 }
-.prev-bnts .icon-qianjin , .next-btns .icon-fanhui,
-{
-    font-size: 14px;
-    font-weight: 900;
-}
 .content-li:hover
 {
     top: -5px;
